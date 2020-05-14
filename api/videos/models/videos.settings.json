@@ -22,8 +22,11 @@
       "unique": true
     },
     "video_categories": {
-      "via": "videos",
-      "collection": "video-category"
+      "collection": "video-category",
+      "via": "videos"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }

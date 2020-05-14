@@ -15,8 +15,8 @@
       "unique": true
     },
     "videos": {
-      "collection": "videos",
       "via": "video_categories",
+      "collection": "videos",
       "dominant": true
     }
   }
