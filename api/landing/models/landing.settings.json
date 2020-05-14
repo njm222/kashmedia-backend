@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "landings",
+  "info": {
+    "name": "Landing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}
