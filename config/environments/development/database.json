@@ -4,7 +4,8 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "mongodb://kashmedia:Island2015!@kashmedia0-shard-00-00-vlees.gcp.mongodb.net:27017,kashmedia0-shard-00-01-vlees.gcp.mongodb.net:27017,kashmedia0-shard-00-02-vlees.gcp.mongodb.net:27017/test?ssl=true&replicaSet=kashmedia0-shard-0&authSource=admin&retryWrites=true&w=majority"
+        "uri": "mongodb://kashmedia:Island2015!@kashmedia0-shard-00-00-vlees.gcp.mongodb.net:27017,kashmedia0-shard-00-01-vlees.gcp.mongodb.net:27017,kashmedia0-shard-00-02-vlees.gcp.mongodb.net:27017/test?ssl=true&replicaSet=kashmedia0-shard-0&authSource=admin&retryWrites=true&w=majority",
+        "database": "test"
       },
       "options": {
         "ssl": true
