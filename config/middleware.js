@@ -9,7 +9,7 @@ module.exports = {
   },
   settings: {
     cors: {
-      origin: 'http://kashmediafilms.com',
+      origin: 'https://kashmediafilms.com',
     },
     favicon: {
       path: 'favicon.ico',
