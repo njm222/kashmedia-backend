@@ -8,6 +8,9 @@ module.exports = {
     after: ['parser', 'router'],
   },
   settings: {
+    cors: {
+      origin: 'http://kashmediafilms.com/',
+    },
     favicon: {
       path: 'favicon.ico',
       maxAge: 86400000
